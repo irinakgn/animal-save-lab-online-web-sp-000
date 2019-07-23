@@ -8,7 +8,7 @@ and (max-device-width: 1196px)
 
   {
     #bear {
-      position: absolute;
+      position: relative;
       top: 35px;
     }
 
