@@ -2,10 +2,14 @@ html {
   background: url(../images/spice-girls.jpg) no-repeat top left;
 }
 
+
+@media screen and (min-device-width: 406px)
+and (max-device-width: 1170px) {
 #monkey {
   position: absolute;
   top: 550px;
   right: 120px;
+}
 }
 
 /* Write your solution here */
