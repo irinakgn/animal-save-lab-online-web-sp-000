@@ -3,14 +3,17 @@ html {
 }
 
 
-@media screen and (min-device-width: 800px)
-and (max-device-width: 1196px)
-
-  {
-    #bear {
-      position: absolute;
-      top: 1515px;
-          }
-
-}
 /* Write your solution here */
+#bear {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+/* Write your solution here */
+
+@media only screen and (min-width: 1196px) {
+  #bear {
+    left: 800px;
+  }
+}
