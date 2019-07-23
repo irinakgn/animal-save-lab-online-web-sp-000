@@ -3,15 +3,13 @@ html {
 }
 
 
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
+@media screen and (min-device-width: 800px)
+and (max-device-width: 1196px)
+
   {
     #bear {
       position: absolute;
-      top: 110px;
+      top: 210px;
       right: 0;}
 
 }
