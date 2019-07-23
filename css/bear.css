@@ -2,11 +2,17 @@ html {
   background: url(../images/cliff.jpg) no-repeat top left;
 }
 
-#bear {
-  position: absolute;
-  top: 100px;
-  right: 0;
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  {
+    #bear {
+      position: absolute;
+      top: 110px;
+      right: 0;}
+
 }
-
 /* Write your solution here */
-
