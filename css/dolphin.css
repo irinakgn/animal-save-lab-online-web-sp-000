@@ -11,12 +11,13 @@ html {
   left: -8px;
   z-index: 1;
 }
-
+@media screen and (min-device-width: 642px)
+and (max-device-width: 1090px){
 #dolphin {
   position: absolute;
   top: 400px;
   right: 0;
+
 }
-
+}
 /* Write your solution here */
-
