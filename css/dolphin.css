@@ -11,14 +11,17 @@ html {
   left: -8px;
   z-index: 1;
 }
-@media screen and (min-device-width: 642px)
-and (max-device-width: 1090px){
 #dolphin {
   position: absolute;
   top: 400px;
   right: 0;
-  transform: rotate(3turn);
+}
 
-}
-}
 /* Write your solution here */
+@media screen and (min-device-width: 642px)
+and (max-device-width: 1090px){
+  #dolphine {
+    top: 100px;
+    right: 0;
+    transform: rotate(-0.25turn);
+  }
